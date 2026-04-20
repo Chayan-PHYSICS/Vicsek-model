@@ -1,0 +1,3 @@
+*.log
+__pycache__/
+temp_data.txt
