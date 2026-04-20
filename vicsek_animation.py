@@ -181,5 +181,3 @@ if __name__ == '__main__':
     n_frames = 200     # number of animation frames
 
     run_animation(N, L, eta, R, v0, n_frames)
-
-    

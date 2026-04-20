@@ -288,7 +288,7 @@ if __name__ == '__main__':
     # ---- Simulation parameters ----
     N           = 200      # number of particles
     L           = 100.0    # box side length
-    eta         = 0.2      # noise for the animated single run
+    eta         = 0.0      # noise for the animated single run
     R           = 0.10*L   # interaction radius
     v0          = 0.02*L   # particle speed
     t_total     = 1200     # total simulation steps
@@ -314,5 +314,3 @@ if __name__ == '__main__':
     )
 
     print(f'\nAll figures saved in: {results_dir}')
-
-    
